@@ -26,7 +26,8 @@ Clone this repository to your local machine using:
 ```bash
 git clone https://github.com/KiranV-10/RESMatch.git
 
-install all the necessary libraries 
+
+- install all the necessary libraries 
 ```bash
 pip install numpy scipy matplotlib tqdm
 
