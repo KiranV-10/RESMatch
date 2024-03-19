@@ -28,8 +28,8 @@ def chebdif(N, M):
 
     # Toeplitz matrix for coefficients
     c = np.tile((-1) ** k, (1, N))
-    c[0, :] *= 2
-    c[-1, :] *= 2
+    c[0, :] = (c[0, :] * 2) 
+    c[-1, :] = (c[-1, :] * 2) 
     c[:, 0] = (c[:, 0] * 0.5)
     c[:, -1] = ( c[:, -1] * 0.5)
 
